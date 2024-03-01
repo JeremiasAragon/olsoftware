@@ -1,0 +1,23 @@
+.pagination {
+  p {
+    font-size: 1.2rem !important;
+  }
+}
+
+.table-header {
+  font-size: 1.3rem !important;
+  font-family: inherit !important;
+  text-wrap: nowrap !important;
+}
+
+.table-cell {
+  font-size: 1.3rem !important;
+  text-wrap: nowrap !important;
+  color: #8f8f8f !important;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  .form__title-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+  }
+
+  .form__title {
+    font-size: 1.8rem;
+  }
+
+  .form__close {
+    cursor: pointer;
+  }
+
+  &__row {
+    display: flex;
+    gap: 4.8rem;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  &__label {
+    font-size: 1.2rem;
+    color: #979797;
+  }
+
+  &__input {
+    padding: 0.6rem;
+    min-width: 23rem;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    font-size: 1.2rem;
+    border-radius: 0.4rem;
+    color: #676767;
+  }
+
+  &__buttons {
+    margin-top: 2.4rem;
+    display: flex;
+    align-self: center;
+    gap: 1.6rem;
+  }
+}

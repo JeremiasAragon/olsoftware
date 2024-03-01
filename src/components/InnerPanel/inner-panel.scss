@@ -1,0 +1,34 @@
+@import "../../styles/variables.scss";
+
+.inner-panel {
+  background-color: #fff;
+  padding: 2rem;
+  height: 100%;
+  overflow-x: scroll;
+  border-radius: 0.8rem;
+
+  &__header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 12rem;
+    align-items: center;
+    margin-bottom: 3.2rem;
+
+    &__title-wrapper {
+      display: flex;
+      gap: 2.4rem;
+      align-items: center;
+    }
+
+    &__icon {
+      color: $color-primary;
+    }
+
+    &__title {
+      color: $color-primary;
+      font-size: 2rem;
+      text-wrap: nowrap;
+      font-weight: 400;
+    }
+  }
+}

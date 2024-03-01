@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.header {
+  background-color: #fff;
+  grid-area: header;
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title-wrapper,
+  &__logout-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  &__menu-btn,
+  &__logout-btn {
+    color: $color-primary;
+    cursor: pointer;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    color: $color-primary;
+  }
+
+  &__user-name {
+    font-size: 1.4rem;
+    color: #444;
+  }
+}

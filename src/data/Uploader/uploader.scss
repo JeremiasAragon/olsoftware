@@ -1,0 +1,16 @@
+.uploader {
+  margin-top: auto;
+
+  p {
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3.2rem;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+}
